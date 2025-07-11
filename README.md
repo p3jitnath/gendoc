@@ -30,7 +30,7 @@ pip install -r requirements.txt
 Run Gendoc on a specific Python file:
 
 ```
-python main.py path/to/your/file.py
+python hook/main.py path/to/your/file.py
 ```
 
 To preview the generated patch without applying it:
@@ -90,8 +90,7 @@ def add(x, y):
 
 ## Project Structure
 
-* `main.py`: Main CLI entrypoint
-* `hooks/`: Contains modular components like LLM generation, patching, and CLI utilities
+* `hook/`: Contains modular components like LLM generation, patching, and CLI utilities
 * `tmp/`: Temporary folder for storing intermediate patch files
 
 ## License
