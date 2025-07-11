@@ -92,6 +92,7 @@ def add(x, y):
 
 * `hook/`: Contains modular components like LLM generation, patching, and CLI utilities
 * `tmp/`: Temporary folder for storing intermediate patch files
+* `examples/`: Examples for testing docstring generation
 
 ## License
 
