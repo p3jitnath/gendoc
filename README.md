@@ -36,7 +36,7 @@ python hook/main.py path/to/your/file.py
 To preview the generated patch without applying it:
 
 ```
-python main.py path/to/your/file.py --dry-run
+python hook/main.py path/to/your/file.py --dry-run
 ````
 
 This will generate docstrings for all missing function/class definitions based on `ruff` diagnostics and print the patch to the console.
