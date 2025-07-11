@@ -1,0 +1,6 @@
+[tool.docstringhook]
+style = "numpy"
+llm = "qwen"
+
+[tool.ruff]
+select = ["D"]
